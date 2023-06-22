@@ -1,0 +1,146 @@
+* {
+  box-sizing: border-box;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.body {
+  padding: 0;
+  margin: 0;
+  font-family: "anton", sans-serif;
+  font-family: "open sans", sans-serif;
+  color: black;
+  font-size: 16px;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+}
+
+.header {
+  background: url(header-bg.jpg) no-repeat center top;
+  padding-top: 57px;
+  height: 900px;
+}
+
+.menu {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 40px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.menu li {
+  list-style: none;
+  text-transform: uppercase;
+}
+.menu li a {
+  letter-spacing: 0.1em;
+}
+.tel {
+  text-align: right;
+  text-decoration: none;
+  margin-left: 623px;
+}
+
+.nav-bar {
+  display: flex;
+  align-items: center;
+  gap: 70px;
+}
+
+.offer {
+  color: #fff;
+  margin-top: 216px;
+}
+
+.offer p {
+  font-family: "anton", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  margin: 0;
+}
+.offer h1 {
+  font-size: 100px;
+  margin: 0;
+  font-family: "anton", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+}
+
+.offer button {
+  border: 1px solid#fff;
+  padding: 17px 24px;
+
+  text-transform: uppercase;
+  margin-top: 20px;
+  background: none;
+  color: #fff;
+}
+
+.desc-block {
+  margin-top: 113px;
+}
+
+.desc-block h2 {
+  font-size: 50px;
+  font-family: "Anton", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 58px;
+  letter-spacing: 0.1em;
+}
+
+.description h3 {
+  font-size: 25px;
+  font-family: Anton;
+  text-transform: uppercase;
+}
+
+.description {
+  display: flex;
+  gap: 36px;
+}
+.description p {
+  text-align: justify;
+  font-size: 16px;
+  line-height: 1.62em;
+  font-family: "open sans", sans-serif;
+}
+
+.gallery {
+  display: flex;
+  gap: 30px;
+  margin-top: 67px;
+}
+
+.desc-left,
+.desc-right {
+  width: 567px;
+}
+.footer {
+  display: flex;
+  margin: 0 auto;
+}
+.footer-text {
+  display: flex;
+  gap: 55px;
+  margin-top: 114px;
+  margin-bottom: 80px;
+}
+.btn {
+  border: 1px solid#fff;
+  padding: 16px 18px;
+  font-family: Anton;
+  letter-spacing: 1.7px;
+  text-transform: uppercase;
+}
